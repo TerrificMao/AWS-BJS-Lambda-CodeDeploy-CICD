@@ -1,5 +1,5 @@
 {
-    "webinarDemo": {
+    "lambdaCodeDeployDemo": {
         "apigateway": {
             "path": "/version",
             "method": {

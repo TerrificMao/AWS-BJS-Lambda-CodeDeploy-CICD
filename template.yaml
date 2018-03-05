@@ -2,10 +2,10 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
 Description: 'Serverless CI/CD webinar Demo'
 Resources:
-  webinarDemo:
+  lambdaCodeDeployDemo:
     Type: 'AWS::Serverless::Function'
     Properties:
-      Handler: webinarDemo/index.handler
+      Handler: lambdaCodeDeployDemo/index.handler
       Runtime: nodejs6.10
       Description: 'Serverless CI/CD webinar demo Lambda function'
       MemorySize: 128

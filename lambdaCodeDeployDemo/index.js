@@ -1,5 +1,4 @@
 'use strict';
-
 console.log('Loading function');
 
 var return400 = (callback) => {
